@@ -23,8 +23,8 @@
     * `os`
     * `chown`
 
-Now right a python script
-* `vi hello.py` -- open a file 
+Now write a python script
+* `vi hello.py` -- open a file hello.py it import the sys module
 ```
     import sys
     message = "Hello World"
@@ -32,11 +32,14 @@ Now right a python script
     print (sys.argv[0])
     print ("hi, " + sys.argv[1])
 ```
-* `python3 hello.py Abaid` --- it will show this 
+* `python3 hello.py Abaid` --- run the first python script
 ```
     Hello World
     hello.py
     hi, Abaid
 ```
-* `#` single line comment
-* `... ...` --- Multiline commands 
+
+### Comments in python
+
+* `#` single line comment with # sign
+* `... ...` --- Multiline commands with the three dots
